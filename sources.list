@@ -1,0 +1,14 @@
+# Ubuntu sources have moved to the /etc/apt/sources.list.d/ubuntu.sources
+# file, which uses the deb822 format. Use deb822-formatted .sources files
+# to manage package sources in the /etc/apt/sources.list.d/ directory.
+# See the sources.list(5) manual page for details.
+deb https://mirrors.ustc.edu.cn/ubuntu/ noble main restricted universe multiverse
+deb-src https://mirrors.ustc.edu.cn/ubuntu/ noble main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ noble-updates main restricted universe multiverse
+deb-src https://mirrors.ustc.edu.cn/ubuntu/ noble-updates main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ noble-backports main restricted universe multiverse
+deb-src https://mirrors.ustc.edu.cn/ubuntu/ noble-backports main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ noble-security main restricted universe multiverse
+deb-src https://mirrors.ustc.edu.cn/ubuntu/ noble-security main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ noble-proposed main restricted universe multiverse
+deb-src https://mirrors.ustc.edu.cn/ubuntu/ noble-proposed main restricted universe multiverse
